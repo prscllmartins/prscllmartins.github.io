@@ -1,93 +1,104 @@
-
 body {
 	height: 100%;
 	margin: 0;
 	text-align: center;
 	width: 100%;
-		}
+	position, relative;
+}
 	
-	
-
 .logo img {
-padding: 20px;
-margin-top: 50px;
+	padding: 20px;
+	margin-top: 50px;
+	position: relative;
 }
 
+.nav {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
 
+.nav ul { 
+	width: 100%; 
+	height: 100%; 
+}
 
 .nav  li {
-    display: inline-block;
+    display: inline;
 	list-style-type: none;
-	padding: 20px;
-    margin-left: 40px;
-	margin-right: 40px;
-	margin-bottom: 20px;
+	padding-right: 50px;
 	font-family: Varela Round,arial,sans-serif;
 	letter-spacing: 3px;
 	font-weight: bold;
 	color: #5A5857;
 	text-decoration: none;
-	
-		   }
-	   
-	   
-	   
-.main img {
-margin-bottom: 30px;
-margin-top: 20px;
-border: 1px solid #5A5857;
+
 }
-
-
-
-.main p {
-margin-bottom: 90px;
-margin-left: 200px;
-margin-right: 200px;
-line-height: 2;
-font-size: 16px;
-color: #5A5857;
-font-family: Open Sans, arial, sans-serif;
-text-align: justify;
-}
-
-
 
 .logoplusnav {
-border: 3px solid #94908E;
-margin-left: 150px;
-margin-right: 150px;
-margin-bottom: 30px;
-margin-top: 60px;
+	border: 3px solid #94908E;
+	margin-bottom: 30px;
+	margin-top: 60px;
 }
 
-
-
+.container {
+	margin-left: 200px;
+	margin-right: 200px;
+	width: 900px;
+	height: 250px;
+}
 
 .icons { 
-margin-bottom: 90px;
+	margin-bottom: 90px;
 }
-
-
 
 .icons i {
-padding-left:  13px;
-padding-right: 13px;
-font-size: 20px;
-color: #222;
-text-decoration: none;
+	padding-left:  13px;
+	padding-right: 13px;
+	font-size: 20px;
+	color: #222;
+	text-decoration: none;
 }
 
-
 a:hover {
-color: #CCC8C5 !important;
- 
+	color: #CCC8C5 !important;
+
 }
 
 i:hover {
-color: #CCC8C5 !important;
+	color: #CCC8C5 !important;
 }
 
+/* INDEX */
 
+.index img {
+	margin-bottom: 30px;
+	margin-top: 20px;
+	border: 1px solid #5A5857;
+}
 
+.index p {
+	line-height: 2;
+	font-size: 16px;
+	color: #5A5857;
+	font-family: Open Sans, arial, sans-serif;
+	text-align: justify;
+	min-width: 500px;
+}
 
+/* CONTACT */
+
+.contact p {
+	width:100%;
+	height:100%;
+	color: #5A5857;
+	font-family: Open Sans, arial, sans-serif;
+	text-align: center;
+}
+
+.contact img {
+	border: 1px solid #5A5857;
+	text-align: center;
+}
+
+/* PORTFOLIO */
