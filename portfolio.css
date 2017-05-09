@@ -1,19 +1,8 @@
 
-body {
-	height: 100%;
-	margin: 0;
-	text-align: center;
-	width: 100%;
-		}
-	
-	
-
 .logo img {
 padding: 20px;
 margin-top: 50px;
 }
-
-
 
 .nav  li {
     display: inline-block;
@@ -27,32 +16,9 @@ margin-top: 50px;
 	font-weight: bold;
 	color: #5A5857;
 	text-decoration: none;
-	
 		   }
 	   
 	   
-	   
-.main img {
-margin-bottom: 30px;
-margin-top: 20px;
-border: 1px solid #5A5857;
-}
-
-
-
-.main p {
-margin-bottom: 90px;
-margin-left: 200px;
-margin-right: 200px;
-line-height: 2;
-font-size: 16px;
-color: #5A5857;
-font-family: Open Sans, arial, sans-serif;
-text-align: justify;
-}
-
-
-
 .logoplusnav {
 border: 3px solid #94908E;
 margin-left: 150px;
@@ -62,9 +28,16 @@ margin-top: 60px;
 }
 
 
-
-
-.icons { 
+body {
+	height: 100%;
+	margin: 0;
+	text-align: center;
+	width: 100%;
+		}
+		
+		
+		
+		.icons { 
 margin-bottom: 90px;
 }
 
@@ -73,9 +46,8 @@ margin-bottom: 90px;
 .icons i {
 padding-left:  13px;
 padding-right: 13px;
-font-size: 20px;
+font-size: 35px;
 color: #222;
-text-decoration: none;
 }
 
 
@@ -83,6 +55,8 @@ a:hover {
 color: #CCC8C5 !important;
  
 }
+
+
 
 i:hover {
 color: #CCC8C5 !important;
